@@ -12,10 +12,19 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Samreaksa Ros")
+            .font(.system(size: 24))
+            .padding(.horizontal, 12)
+            .padding(.vertical, 8)
+            .foregroundColor(Color.white)
+            .background(Color.yellow)
+            
+            Spacer()
+            Text("Samreaksa Ros")
                 .font(.system(size: 24))
                 .padding(.horizontal, 12)
                 .padding(.vertical, 8)
                 .foregroundColor(Color.white)
+                .background(Color.yellow)
             
         }.background(Color.blue)
     }
