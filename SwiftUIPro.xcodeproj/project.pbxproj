@@ -15,6 +15,7 @@
 		184F3F0D23E6B5BE00E6DF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F3F0B23E6B5BE00E6DF67 /* LaunchScreen.storyboard */; };
 		184F3F1823E6B5BE00E6DF67 /* SwiftUIProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F3F1723E6B5BE00E6DF67 /* SwiftUIProTests.swift */; };
 		184F3F2323E6B5BE00E6DF67 /* SwiftUIProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F3F2223E6B5BE00E6DF67 /* SwiftUIProUITests.swift */; };
+		184F3F3323E6C37E00E6DF67 /* reaksa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184F3F3223E6C37E00E6DF67 /* reaksa.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		184F3F1E23E6B5BE00E6DF67 /* SwiftUIProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184F3F2223E6B5BE00E6DF67 /* SwiftUIProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProUITests.swift; sourceTree = "<group>"; };
 		184F3F2423E6B5BE00E6DF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F3F3223E6C37E00E6DF67 /* reaksa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reaksa.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		184F3EFF23E6B5BD00E6DF67 /* SwiftUIPro */ = {
 			isa = PBXGroup;
 			children = (
+				184F3F3023E6C34900E6DF67 /* assets */,
 				184F3F0023E6B5BD00E6DF67 /* AppDelegate.swift */,
 				184F3F0223E6B5BD00E6DF67 /* SceneDelegate.swift */,
 				184F3F0423E6B5BD00E6DF67 /* ContentView.swift */,
@@ -134,6 +137,22 @@
 				184F3F2423E6B5BE00E6DF67 /* Info.plist */,
 			);
 			path = SwiftUIProUITests;
+			sourceTree = "<group>";
+		};
+		184F3F3023E6C34900E6DF67 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				184F3F3123E6C35300E6DF67 /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		184F3F3123E6C35300E6DF67 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				184F3F3223E6C37E00E6DF67 /* reaksa.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184F3F3323E6C37E00E6DF67 /* reaksa.jpg in Resources */,
 				184F3F0D23E6B5BE00E6DF67 /* LaunchScreen.storyboard in Resources */,
 				184F3F0A23E6B5BE00E6DF67 /* Preview Assets.xcassets in Resources */,
 				184F3F0723E6B5BE00E6DF67 /* Assets.xcassets in Resources */,

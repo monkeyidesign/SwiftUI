@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+let data = ["Samreaksa", "Dev", "Swfit"]
 struct ContentView: View {
     var body: some View {
         ZStack {
@@ -19,28 +20,33 @@ struct ContentView: View {
 
 struct FrontView: View {
     var body: some View {
-        VStack (spacing: 12) {
-            HStack {
-                Text("Samreaksa Ros")
-                    .font(.system(size: 24))
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 8)
-                    .background(Color.red)
+        VStack (spacing: 100) {
+            HStack () {
+               
+             Image("reaksa1")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 80.0,height:80)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .shadow(radius: 10)
+                .padding(.leading, 20)
+                
+                
                 Spacer().frame(height: 10)
-                        .background(Color.green)
             }.background(Color.blue)
 
             Spacer().frame(width: 10)
-                    .background(Color.green)
 
             HStack {
                 Spacer().frame(height: 10)
                         .background(Color.green)
-                Text("Samreaksa Ros")
+                Text(data[0])
                     .font(.system(size: 24))
                     .padding(.horizontal, 12)
                     .padding(.vertical, 8)
                     .background(Color.red)
+            
             }.background(Color.blue)
 
         }.background(Color.yellow)
